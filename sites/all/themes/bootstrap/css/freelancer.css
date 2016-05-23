@@ -264,9 +264,13 @@ section.success a.active {
     margin-top: 15px;
     border: solid 2px #fff;
     font-size: 20px;
-    color: #fff;
-    background: 0 0;
+    color: #1f2239;
+    background: #18bc9c;
     transition: all .3s ease-in-out;
+}
+
+.btn-width {
+	width: 200px;
 }
 
 .btn-outline:hover,
@@ -274,8 +278,26 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #18bc9c;
+    color: #1f2239;
     background: #fff;
+}
+
+.btn-danger {
+    margin-top: 15px;
+    border: solid 2px #18bc9c;
+    font-size: 20px;
+    color: #1f2239;
+    background: #fff;
+    transition: all .3s ease-in-out;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active {
+    border: solid 2px #18bc9c;
+    color: #1f2239;
+    background: #18bc9c;
 }
 
 .floating-label-form-group {
@@ -411,7 +433,12 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content img {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
+}
+
+.portfolio-modal .modal-image {
+	border: 5px solid #2c3e50;
+	margin-bottom: 20px;
 }
 
 .portfolio-modal .modal-content .item-details {
@@ -456,4 +483,8 @@ footer .footer-below {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+.img-bordered {
+	border: 0;
 }

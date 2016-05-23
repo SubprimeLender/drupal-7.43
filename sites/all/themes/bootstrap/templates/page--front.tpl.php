@@ -19,8 +19,8 @@
 
     <!-- Custom Fonts -->
     <link href="sites/all/themes/bootstrap/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -74,7 +74,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="sites/all/themes/bootstrap/img/profile.png" alt="">
+                    <img class="img-responsive" src="sites/all/themes/bootstrap/img/tony_logo.png" alt="">
                     <div class="intro-text">
                         <span class="name">TONY LI</span>
                         <hr class="star-light">
@@ -95,8 +95,10 @@
                 </div>
             </div>
             <div class="row">
+	            
+	            <!-- ADC Preference -->
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#adc_preference" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -104,9 +106,17 @@
                         </div>
                         <img src="sites/all/themes/bootstrap/img/portfolio/game.png" class="img-responsive" alt="">
                     </a>
+                    <div class="text-center">
+		                <a href="http://champselect.info" target="_blank" class="btn btn-lg btn-danger btn-width">Demo</a>
+	            	</div>
+	            	<div class="text-center">
+		            	<a href="https://github.com/SubprimeLender/best_marksmen" target="_blank" class="btn btn-lg btn-danger btn-width">Github</a>
+	            	</div>
                 </div>
+                
+                <!-- Mastery API -->
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#league_of_kappa" class="portfolio-link" data-toggle="modal">
+	                <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -114,9 +124,17 @@
                         </div>
                         <img src="sites/all/themes/bootstrap/img/portfolio/safe.png" class="img-responsive" alt="">
                     </a>
-                </div>
+	                <div class="text-center">
+		            	<a href="http://champselect.info/kappa/kappa.html" target="_blank" class="btn btn-lg btn-danger btn-width">Demo</a>
+	            	</div>
+	            	<div class="text-center">
+		            	<a href="https://github.com/SubprimeLender/Riot_API_Challenge" target="_blank" class="btn btn-lg btn-danger btn-width">Github</a>
+	            	</div>
+            	</div>
+                
+                <!-- Twitch API -->
                 <div class="col-sm-4 portfolio-item">
-                    <a href="#twitch_API" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
                                 <i class="fa fa-search-plus fa-3x"></i>
@@ -124,32 +142,13 @@
                         </div>
                         <img src="sites/all/themes/bootstrap/img/portfolio/submarine.png" class="img-responsive" alt="">
                     </a>
+                	<div class="text-center">
+		            	<button type="button" class="btn btn-lg btn-danger btn-width">Coming Soon</button>
+	            	</div>
+	            	<div class="text-center">
+		            	<button type="button" class="btn btn-lg btn-danger btn-width">Coming Soon</button>
+	            	</div>
                 </div>
-            </div>
-            <div class="row">
-	            <div class="col-sm-4 text-center">
-		            <a href="http://champselect.info" class="btn btn-lg">Demo</a>
-	            </div>
-	            <div class="col-sm-4 text-center">
-		            <a href="http://champselect.info/kappa/kappa.html" class="btn btn-lg">Demo</a>
-	            </div>
-				<div class="col-sm-4 text-center">
-		            <a href="" class="btn btn-lg">Coming Soon!</a>
-	            </div>
-            </div>
-            <div class="row">
-	            <div class="col-sm-4 text-center">
-		            <a href="" class="btn btn-lg">Github
-                    </a>
-	            </div>
-	            <div class="col-sm-4 text-center">
-		            <a href="" class="btn btn-lg">Github
-                    </a>
-	            </div>
-				<div class="col-sm-4 text-center">
-		            <a href="" class="btn btn-lg">Coming Soon!
-                    </a>
-	            </div>
             </div>
         </div>
     </section>
@@ -165,10 +164,10 @@
             </div>
             <div class="row">
                 <div class="col-lg-6 col-lg-offset-3 text-justify">
-                    <p>I am an attorney practicing out of Texas, USA, with experience in complex commercial litigation as well as both residential and commercial real estate transactions. I also happen to be a self-taught programmer as well! Feel free to check out my legal resume, or any of my programming projects so far.</p>
+                    <p>I am a lawyer practicing out of Texas, USA, with experience in complex commercial litigation as well as both residential and commercial real estate transactions. I also happen to be a self-taught programmer as well. Feel free to browse my legal resume, or any of my programming projects so far.</p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="sites/all/themes/bootstrap/TonyLi_Resume(Trx16).docx" class="btn btn-lg btn-outline">
+                    <a href="sites/all/themes/bootstrap/TonyLi_Resume.pdf" target="_blank" class="btn btn-lg btn-outline">
                         <i class="fa fa-download"></i> Download Legal Resume
                     </a>
                 </div>
@@ -233,32 +232,6 @@
 
     <!-- Footer -->
     <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4 col-md-offset-4">
-                        <h3>Share</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
         <div class="footer-below">
             <div class="container">
                 <div class="row">
@@ -278,7 +251,9 @@
     </div>
 
     <!-- Portfolio Modals -->
-	<div class="portfolio-modal modal fade" id="adc_preference" tabindex="-1" role="dialog" aria-hidden="true">
+    
+    <!-- portfolioModal1: ADC Preference -->
+	<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -290,32 +265,37 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>LoL: ADC Preference App</h2>
                             <hr class="star-primary">
-                            <img src="sites/all/themes/bootstrap/img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <div class="modal-image">
+                            	<img src="sites/all/themes/bootstrap/img/portfolio/adc_preference1.png" class="img-responsive img-centered" alt="">
+                            </div>
+                            <div class="text-justify">
+                            	<p>My very first programming project. After learning PHP and HTML for 3 weeks, I built this 10-question quiz that will predict which character best fits the user's playstyle in the League of Legends video game. After posting on Reddit, the app received 130,000 responses with 110,000 unique visitors within the first 3 days.</p>
+                            </div>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                <li>Experience:
+                                    <strong>3 weeks
                                     </strong>
                                 </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                <li>Project Duration:
+                                    <strong>8 days
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                <li>Languages:
+                                    <strong>PHP - JQuery
                                     </strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="league_of_kappa" tabindex="-1" role="dialog" aria-hidden="true">
+    
+    <!-- portfolioModal2: Mastery API -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -327,32 +307,37 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>LoL: Riot API Query</h2>
                             <hr class="star-primary">
-                            <img src="sites/all/themes/bootstrap/img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <div class="modal-image">
+                            	<img src="sites/all/themes/bootstrap/img/portfolio/mastery_api1.png" class="img-responsive img-centered" alt="">
+                            </div>
+                            <div class="text-justify">
+								<p>An app submitted to Riot's annual League of Legends API challenge. The program uses Riot's API to directly query in-game information, getting and analyzing JSON data on all players in a current match. Built in 2 days in collaboration with <a href="https://www.twitch.tv/cabosetv">Cabose</a>.</p>
+                            </div>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                <li>Experience:
+                                    <strong>5 weeks
                                     </strong>
                                 </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                <li>Project Duration:
+                                    <strong>2 days
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                <li>Languages:
+                                    <strong>PHP - Javascript - JSON API
                                     </strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="twitch_API" tabindex="-1" role="dialog" aria-hidden="true">
+    </div>    
+    
+    <!-- portfolioModal3: Twitch API -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -364,25 +349,26 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Twitch.tv: Viewer API App</h2>
                             <hr class="star-primary">
-                            <img src="sites/all/themes/bootstrap/img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+							<div class="modal-image">
+                            	<img src="sites/all/themes/bootstrap/img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+							</div>
+                            <p>Description and details coming soon.</p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
+                                <li>Experience:
+                                    <strong> --
                                     </strong>
                                 </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
+                                <li>Project Duration:
+                                    <strong> --
                                     </strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
+                                <li>Languages:
+                                    <strong> --
                                     </strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
@@ -394,10 +380,10 @@
     <script src="sites/all/themes/bootstrap/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="sites/all/themes/bootstrap/js/bootstrap.min.js"></script>
+    <!--<script src="sites/all/themes/bootstrap/js/bootstrap.min.js"></script> -->
 
     <!-- Plugin JavaScript -->
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="sites/all/themes/bootstrap/js/classie.js"></script>
     <script src="sites/all/themes/bootstrap/js/cbpAnimatedHeader.js"></script>
 
