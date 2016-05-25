@@ -104,7 +104,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="sites/all/themes/bootstrap/img/portfolio/game.png" class="img-responsive" alt="">
+                        <img src="sites/all/themes/bootstrap/img/portfolio/Game Pad.png" class="img-responsive centered" alt="">
                     </a>
                     <div class="text-center">
 		                <a href="http://champselect.info" target="_blank" class="btn btn-lg btn-danger btn-width">Demo</a>
@@ -122,13 +122,13 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="sites/all/themes/bootstrap/img/portfolio/safe.png" class="img-responsive" alt="">
+                        <img src="sites/all/themes/bootstrap/img/portfolio/calculator.png" class="img-responsive centered" alt="">
                     </a>
 	                <div class="text-center">
-		            	<a href="http://champselect.info/kappa/kappa.html" target="_blank" class="btn btn-lg btn-danger btn-width">Demo</a>
+		            	<a href="http://champselect.info/mastery.html" target="_blank" class="btn btn-lg btn-danger btn-width">Demo</a>
 	            	</div>
 	            	<div class="text-center">
-		            	<a href="https://github.com/SubprimeLender/Riot_API_Challenge" target="_blank" class="btn btn-lg btn-danger btn-width">Github</a>
+		            	<a href="https://github.com/SubprimeLender/Mastery_API_v2" target="_blank" class="btn btn-lg btn-danger btn-width">Github</a>
 	            	</div>
             	</div>
                 
@@ -140,7 +140,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="sites/all/themes/bootstrap/img/portfolio/submarine.png" class="img-responsive" alt="">
+                        <img src="sites/all/themes/bootstrap/img/portfolio/LCD TV.png" class="img-responsive centered" alt="">
                     </a>
                 	<div class="text-center">
 		            	<button type="button" class="btn btn-lg btn-danger btn-width">Coming Soon</button>
@@ -307,21 +307,21 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>LoL: Riot API Query</h2>
+                            <h2>LoL: Riot API Query v2</h2>
                             <hr class="star-primary">
                             <div class="modal-image">
-                            	<img src="sites/all/themes/bootstrap/img/portfolio/mastery_api1.png" class="img-responsive img-centered" alt="">
+                            	<img src="sites/all/themes/bootstrap/img/portfolio/mastery_api2.png" class="img-responsive img-centered" alt="">
                             </div>
                             <div class="text-justify">
-								<p>An app submitted to Riot's annual League of Legends API challenge. The program uses Riot's API to directly query in-game information, getting and analyzing JSON data on all players in a current match. Built in 2 days in collaboration with <a href="https://www.twitch.tv/cabosetv">Cabose</a>.</p>
+								<p>A revamped version of an <a href="https://github.com/SubprimeLender/Riot_API_Challenge">app submitted to Riot's annual League of Legends API Challenge</a>, which was initially put together in 2 days with <a href="https://www.twitch.tv/cabosetv">Cabose</a>. The program uses Riot's API to directly query in-game information, getting and analyzing JSON data on all players in a current match. </p>
                             </div>
                             <ul class="list-inline item-details">
                                 <li>Experience:
-                                    <strong>5 weeks
+                                    <strong>6 weeks
                                     </strong>
                                 </li>
                                 <li>Project Duration:
-                                    <strong>2 days
+                                    <strong>1 day
                                     </strong>
                                 </li>
                                 <li>Languages:
@@ -380,7 +380,7 @@
     <script src="sites/all/themes/bootstrap/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <!--<script src="sites/all/themes/bootstrap/js/bootstrap.min.js"></script> -->
+    <!--<script src="sites/all/themes/bootstrap/js/bootstrap.js"></script>-->
 
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
