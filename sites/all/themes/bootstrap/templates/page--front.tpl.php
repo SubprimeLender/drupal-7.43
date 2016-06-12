@@ -164,11 +164,11 @@
             </div>
             <div class="row">
                 <div class="col-lg-6 col-lg-offset-3 text-justify">
-                    <p>I am a lawyer practicing out of Texas, USA, with experience in complex commercial litigation as well as both residential and commercial real estate transactions. I also happen to be a self-taught programmer as well. Feel free to browse my legal resume, or any of my programming projects so far.</p>
+                    <p>I am a lawyer practicing out of Texas, USA, with experience in complex commercial litigation, real estate transactions, and business development. I also happen to be a self-taught programmer as well. Feel free to browse my resume, or any of my programming projects so far.</p>
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a href="sites/all/themes/bootstrap/Tony_Li_Resume.pdf" target="_blank" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Legal Resume
+                    <a href="sites/all/themes/bootstrap/img/TonyLi_Resume(Dev16).pdf" target="_blank" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Download Resume
                     </a>
                 </div>
             </div>
